@@ -1,4 +1,5 @@
 import classes from './Profile.module.css';
+import MyPosts from './MyPosts/MyPosts';
 
 const Profile = () =>{
 	return (
@@ -14,6 +15,7 @@ const Profile = () =>{
 						<h3>Обучение: ТГ...ТГУ....Т....ПТУ в общем</h3>
 						<h3>Web-Site: mistersandman.ru</h3>
 					</div>
+					<MyPosts />
 				</div>
 			</main>	
 		);

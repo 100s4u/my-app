@@ -3,18 +3,6 @@ main{
 	justify-content: space-between;
 	min-height: 500px;
 }
-.nav{
-	background-color: #242526;
-	width: 100%;
-	min-height: 70px;
-	font-size: 20px;
-	display: flex;
-	align-items: center;
-}
-.nav__items{
-	display: flex;
-	justify-content: space-around;
-}
 .main__contnet{
 	max-width: 100%;
 	min-height: 500px;

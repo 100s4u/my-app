@@ -1,4 +1,4 @@
-import classes from './Profile.module.css';
+import classes from './Nav.module.css';
 
 const Nav = () =>{
 	return (
