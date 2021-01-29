@@ -1,0 +1,30 @@
+main{
+	display: flex;
+	justify-content: space-between;
+	min-height: 500px;
+}
+.nav{
+	background-color: #242526;
+	width: 100%;
+	min-height: 70px;
+	font-size: 20px;
+	display: flex;
+	align-items: center;
+}
+.nav__items{
+	display: flex;
+	justify-content: space-around;
+}
+.main__contnet{
+	max-width: 100%;
+	min-height: 500px;
+	border-radius: 20px;
+	background-color: #242526;
+	padding: 2em;
+	margin: 2em 0;
+}
+.profile_pic{
+	width: 200px;
+	border-radius: 50%;
+	overflow: hidden;
+}
