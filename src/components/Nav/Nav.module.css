@@ -10,3 +10,15 @@
 	display: flex;
 	justify-content: space-around;
 }
+a{
+	color: #fff;
+	text-decoration: none;
+}
+a:hover{
+	color: #ddd;
+	text-decoration: none;
+}
+a.active{
+	color: #ddd;
+	text-decoration: none;
+}

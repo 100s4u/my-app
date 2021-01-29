@@ -17,6 +17,7 @@ header img{
 	height: 70px;
 }
 .profile_pic_container{
+	display: block;
 	height: 50px;
 	border-radius: 50%;
 	overflow: hidden;
