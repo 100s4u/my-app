@@ -1,0 +1,36 @@
+.main__contnet{
+	display: flex;
+	align-items: center;
+}
+.main__contnet__dialogs{
+	display: flex;
+	height: 700px;
+	width: 100%;
+	margin-top: 1em;
+}
+.dialogs_items{
+	min-width: 30%;
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+.dialogs_items::-webkit-scrollbar {
+	display: none;
+}
+.dialog{
+	width: 90%;
+	height: 50px;
+	margin: .5em auto;
+	border-bottom: solid 2px #363839;
+}
+
+.messages{
+	width: 70%;
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+.messages::-webkit-scrollbar {
+	display: none;
+}
+.message{
+
+}
