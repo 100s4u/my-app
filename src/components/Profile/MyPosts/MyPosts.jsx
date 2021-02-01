@@ -3,7 +3,7 @@ import Post from './Post/Post'
 
 const MyPosts = () =>{
 	return (
-			<div className={classes.main__contnet}>
+			<div className={classes.main__contnet__block}>
 				<div className={classes.add__form}>
 					<input type="text" />
 				</div>

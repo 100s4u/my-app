@@ -17,10 +17,25 @@
 	display: none;
 }
 .dialog{
-	width: 90%;
+	display: block;
+	max-width: 100%;
+	padding: .5em 1em;
 	height: 50px;
-	margin: .5em auto;
 	border-bottom: solid 2px #363839;
+	cursor: pointer;
+}
+.dialog:hover{
+	max-width: 100%;
+	padding: .5em 1em;
+	height: 50px;
+	background-color: #242526;
+	border-bottom: solid 2px #363839;
+	cursor: pointer;
+}
+.active{
+	max-width: 100%;
+	height: 50px;
+	background-color: #242526;
 }
 
 .messages{
