@@ -5,7 +5,8 @@
 	background-color: #242526;
 	padding: 2em;
 	margin: 2em 0;
-}.profile_pic{
+}
+.profile_pic{
 	width: 200px;
 	border-radius: 50%;
 	overflow: hidden;
