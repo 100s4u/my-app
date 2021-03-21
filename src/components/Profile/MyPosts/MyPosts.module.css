@@ -2,10 +2,29 @@
 	max-width: 100%;
 }
 .add__form{
+	display: flex;
+	align-items: center;
 	max-width: 100%;
 	min-height: 50px;
 	border-radius: 20px;
 	background-color: #242526;
 	padding: 2em;
 	margin: 2em 0;
+}
+
+.add__form button{
+	background-color: #0ebd5c;
+	border: none;
+	color: #fff;
+	height: 2.5em;
+	padding: 0 1em;
+	margin: 0 1em;
+	border-radius: .5em;
+}
+.add__form input{
+	border: none;
+	height: 2.5em;
+	padding: 0 1em;
+	margin: 0 1em;
+	border-radius: .5em;
 }

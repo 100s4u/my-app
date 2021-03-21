@@ -3,6 +3,18 @@
 	[
 		{
 			"path": "/home/sandman/node/my-app"
+		},
+		{
+			"path": "/home/sandman/Sites/simple-admin-panel"
+		},
+		{
+			"path": "/home/sandman/Sites/EG"
+		},
+		{
+			"path": "/home/sandman/Sites/EG[Old_ver.]"
+		},
+		{
+			"path": "/home/sandman/Sites/mistersandman.ru"
 		}
 	]
 }

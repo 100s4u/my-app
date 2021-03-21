@@ -1,31 +1,29 @@
 .main__contnet{
 	display: flex;
-	align-items: center;
 }
 .main__contnet__dialogs{
 	display: flex;
-	height: 700px;
+	height: 800px;
 	width: 100%;
 	margin-top: 1em;
 }
 .dialogs_items{
-	min-width: 30%;
-	overflow-x: hidden;
-	overflow-y: scroll;
+	display: flex;
+	flex-direction: column;
+	min-width: 300px;
 }
 .dialogs_items::-webkit-scrollbar {
 	display: none;
 }
 .dialog{
-	display: block;
-	max-width: 100%;
+	width: auto;
 	padding: .5em 1em;
 	height: 50px;
 	border-bottom: solid 2px #363839;
 	cursor: pointer;
 }
 .dialog:hover{
-	max-width: 100%;
+	width: auto;
 	padding: .5em 1em;
 	height: 50px;
 	background-color: #242526;
@@ -33,19 +31,54 @@
 	cursor: pointer;
 }
 .active{
-	max-width: 100%;
+	width: auto;
 	height: 50px;
 	background-color: #242526;
 }
 
+.messages__block{
+	display: flex;
+	flex-direction: column;
+	min-width: calc(100% - 300px);
+	padding: 1em;
+}
+
 .messages{
-	width: 70%;
-	overflow-x: hidden;
-	overflow-y: scroll;
+	width: 100%;
+	height: 100%;
 }
 .messages::-webkit-scrollbar {
 	display: none;
 }
 .message{
-
+	padding: 1em;
+	margin: 1em;
+}
+.message__input{
+	height: 200px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	padding: 1em;
+}
+.message__input textarea{
+	resize: none;
+	max-height: 100%;
+	width: 85%;
+	height: 150px;
+	background-color: #242526;
+	color: #fff;
+	border-radius: .5em;
+	border: none;
+	padding: 1em;
+}
+.message__input button{
+	background-color: #0ebd5c;
+	border: none;
+	color: #fff;
+	height: 2.5em;
+	padding: 0 1em;
+	margin: 0 1em;
+	border-radius: .5em;
 }
